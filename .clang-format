@@ -1,0 +1,20 @@
+BasedOnStyle: LLVM
+Standard: c++20
+UseTab: Never
+
+AccessModifierOffset: -4
+ColumnLimit: 120
+IndentWidth: 4
+MaxEmptyLinesToKeep: 1
+PPIndentWidth: 2
+
+AlwaysBreakAfterReturnType: TopLevelDefinitions
+BreakConstructorInitializers: BeforeComma
+PointerAlignment: Left
+DerivePointerAlignment: false
+PackConstructorInitializers: Never
+SpaceAfterCStyleCast: true
+SortIncludes: false
+---
+Language: Proto
+IndentWidth: 2
